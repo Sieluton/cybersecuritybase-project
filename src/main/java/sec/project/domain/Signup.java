@@ -1,6 +1,9 @@
 package sec.project.domain;
 
 import javax.persistence.Entity;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.data.jpa.domain.AbstractPersistable;
 
 @Entity
